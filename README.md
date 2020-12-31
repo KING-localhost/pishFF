@@ -14,3 +14,9 @@ $ pkg install openssh
 $ pkg install ruby
 
 $ gem install lolcat
+
+$ git clone https://github.com/KING-localhost/pishFF.git
+
+$ cd pishFF
+
+$ bash pishFF.sh
