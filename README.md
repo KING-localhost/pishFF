@@ -20,3 +20,14 @@ $ git clone https://github.com/KING-localhost/pishFF.git
 $ cd pishFF
 
 $ bash pishFF.sh
+
+# CONTACT
+<a href="https://wa.me/+13474742185?text=Hallo"><img title="whatsapp" src="https://img.shields.io/badge/contact me-number-blue?style=for-the-badge&logo=whatsapp"></a>
+<br>
+<br>
+<a href="https://chat.whatsapp.com/LFyNvLb6hHpIhpvhv8a4v7"><img title="whatsapp" src="https://img.shields.io/badge/group-whatsapp-blue?style=for-the-badge&logo=whatsapp"></a>
+
+# DONATION
+<a href="https://paypal.me/Hengkara?locale.x=id_ID"><img title="paypal" src="https://img.shields.io/badge/paypal-blue?style=for-the-badge&logo=paypal"></a> 
+
+<a href="https://link.dana.id/qr/hcugqq3"><img title="dana" src="https://img.shields.io/badge/dana-blue?style=for-the-badge&logo=dana"></a> 
